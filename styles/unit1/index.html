@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jacky Lai" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <meta name="rating" content="General" />
+    <base target="_target" />
+    <meta name="description" content="" />
+    <title></title>
+    <link rel="stylesheet" href="../../assets/css/globals.css" />
+  </head>
+  <body>
+    <form class="form">
+      <!-- 姓名 -->
+      <div class="form__group">
+        <label class="form__label" for="name">姓名</label>
+        <input class="form__input" type="text" id="name" name="name" required />
+      </div>
+
+      <!-- 年齡 -->
+      <div class="form__group">
+        <label class="form__label" for="age">年齡</label>
+        <input class="form__input" type="number" id="age" name="age" required />
+      </div>
+
+      <!-- 信箱 -->
+      <div class="form__group">
+        <label class="form__label" for="email">信箱</label>
+        <input
+          class="form__input"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+      </div>
+
+      <!-- 信箱 -->
+      <div class="form__group">
+        <label class="form__label" for="unit">單位</label>
+        <input class="form__input" type="text" id="unit" name="unit" required />
+      </div>
+
+      <!-- 性別 -->
+      <div class="form__group">
+        <label class="form__label">性別</label>
+        <div class="form__options">
+          <input
+            class="form__option-input"
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+            required
+          />
+          <label class="form__option-label" for="male">男</label>
+          <input
+            class="form__option-input"
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            required
+          />
+          <label class="form__option-label" for="female">女</label>
+        </div>
+      </div>
+
+      <!-- 下拉式功能以及其他表單元素 ... -->
+    </form>
+  </body>
+</html>

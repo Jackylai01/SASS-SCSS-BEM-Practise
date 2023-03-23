@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.form {
+  height: 100vh;
+  width: 40%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  &__group {
+    margin-bottom: 1rem;
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  &__options {
+    display: flex;
+    align-items: center;
+
+    &-input {
+      margin-right: 0.5rem;
+    }
+
+    &-label {
+      margin-right: 1rem;
+    }
+  }
+
+  // 下拉式功能以及其他表單元素的樣式 ...
+}
